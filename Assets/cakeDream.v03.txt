@@ -1,0 +1,383 @@
+:: StoryTitle
+cakedream
+
+:: StoryData
+{
+ "ifid": "8FD5D6E8-B81E-48F0-B18C-E16959864C0A",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "START",
+ "tag-colors": {
+  "START": "yellow",
+  "END": "blue"
+ }
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+:: have you played the game yet? [START black] {"position":"1754,81.5","size":"100,100"}
+Before the game starts, answer this honestly.
+
+Have you played the game yet? 
+
+Yes [[Yes]]
+No [[No]]
+
+:: Yes {"position":"1643,191.5","size":"100,100"}
+Great! Next question, is it your birthday? 
+
+No???[[No???]]
+Sure???[[Sure?]]
+
+:: No {"position":"1846,199.5","size":"100,100"}
+Alright, please go ahead and play the game first. Then come back here again to maybe see something very special. :D
+
+Okay~[[START]]
+
+:: No??? {"position":"1851,337.5","size":"100,100"}
+Unfornate, wrong answer.
+
+Continue...[[START]]
+
+:: Sure? {"position":"1642,319.5","size":"100,100"}
+Cool, click on this button.
+
+Click on this cool button[[Click on this cool button]]
+
+:: Click on this cool button {"position":"1640,455.5","size":"100,100"}
+From the start of the dream, you have been gathering ingredients for a while now.  
+You've done all you can now and M3p appears from the bushes.
+M3p: "mellow im back, it's been a long while now so it's time to go back. We have to bake the cake before you wake up from the dream."
+You are very tired from today's adventure and you followed M3p back to Clover's hut.
+
+A few moments later...[[Secret ending]]
+
+:: START [bedroom] {"position":"620,33.5","size":"100,100"}
+*yawns* It’s late at night and you are getting ready for bed.
+
+Tuck yourself to bed[[sleep]]
+
+
+:: sleep {"position":"484,159.5","size":"100,100"}
+You tuck yourself in bed and doze off into the world of dreams. A few moments later you are awoken by a shout.
+???: “HEY!”
+
+Slowly open your eyes[[eyes]]
+
+
+:: question white blob [m3pTL] {"position":"477,551.5","size":"100,100"}
+You asked: “who are you? And where am I?”
+M3p: “My name's m3p and I guess we are on some island?”
+You replied: “you guess?”
+M3p: “yup! Now let's get going, clover’s waiting!”
+
+You walk together with the small blob in your hands, who is pointing in the direction you need to go in.
+
+Follow the white blob[[follow white blob]]
+
+
+:: knock [cloverT]{"position":"476,816.5","size":"100,100"}
+You knocked on the door three times and you can hear someone from the inside walking towards the door.They opened the door and you can see a pink hair catgirl. 
+
+M3p: “hey clover, our guest here has been summoned here!”
+Clover: “Well hellonya~, I’m Clover & I live here with my friend here M3p.”
+M3p:“anyways let’s go in.”
+
+Enter the cottage[[cottage]]
+
+:: cottage [hutIN]{"position":"818,146.5","size":"100,100"}
+You walk into the house. There is nature theme furniture around the place and it looks really cozy. We all sit around the table with tea and snacks.
+
+Looking over the choices of snacks, we got:
+
+Pink Berry Stick[[pocky]]
+Macha Crunchy Choco Cracker[[matcha kitkat]]
+Green Cumber Chips[[cucumber chips]]
+
+
+:: pocky [pink]{"position":"667,296.5","size":"100,100"}
+You took a bite of the Pink Berry Stick.The Pink Berry Stick tasted heavenly. 
+The biscuit is thin and long, covered in strawberry chocolate covering that will make you drunk.
+
+A sudden urge arises[[cake]]
+
+:: matcha kitkat [kit] {"position":"841,295.5","size":"100,100"}
+You took a bite of the Macha Crunchy Choco Cracker.
+The Macha Crunch Choco Crackers are delicious sweet that brings you the sense of another culture. 
+The biscuit is covered in chocolate but not just any chocolate, it's Macha chocolate covering.
+
+A sudden urge arises[[cake]]
+
+:: cucumber chips [cumber]{"position":"1102,280.5","size":"100,100"}
+You took a bite of the Green cumber Chips.
+The Green Cumber Chips taste & smells like the vegetable, though it may taste weird at first the flavor is just addicting. 
+You'll find yourself eating many green cumber chips without realization. 
+
+A sudden urge arises[[cake]]
+
+:: cake [hutIN]{"position":"851,468.5","size":"100,100"}
+After finishing the sweet snack, you suddenly have an urge to eat a cake. Sadly, Clover didn’t prepare any cake & you decided to make one! 
+Your inner self calls you to make a cake; this is your destiny. 
+
+Clover: “Aight, now this is a fantasy world of yours. Your goal is to adventure throughout the space & gather the ingredients for your cake. 
+Since I am a nice four leaf Clover, I shall bestow some luck on you by first giving you one of the ingredients you need.”
+
+Clover extends her hands with some sort of golden eggs towards you.
+
+Take the first ingredients[[first ingredients]]
+
+
+:: first ingredients [egg] {"position":"855,601.5","size":"100,100"}
+Clover: “Which are the golden Phoenix eggs, be proud & happy that you didn’t need to meet the proud and egoistic Phoenix mama. 
+Here is the list of what you’ll need, let your wild imagination guide you to the ingredients no need for maps!”
+You look at the list of ingredients handed by Clover. They include Unicorn’s milk, mermaids pearl, hidden beach sand, and Monkey’s boonanas.
+
+Which way would you like to travel to? (We are currently at the East.)
+
+To the North[[Mermaids pearl]]
+To the West[[Monkey’s boonanas]]
+
+
+
+:: Mermaids pearl [beach] {"position":"668,752.5","size":"100,100"}
+You’ve decided to head North and you can smell the ocean air. As you approach closer to the beach, you see a very big blue figure ahead. Omg look, it’s a giant whale! 
+Instinctively, you run toward the giant whale and see what you can do to help the whale. You get closer to the giant whale and you can hear the whale speaking to you. 
+The giant whale lets out a very deep sound but is very weak. 
+
+What will you do? 
+
+Run around the beach & look for help[[look for help]]
+Start splashing water at the whale[[splash water]]
+
+
+:: Monkey’s boonanas [monkeyBeach] {"position":"1079,700.5","size":"100,100"}
+You decided to head for the West.
+After somewhat of a short walk, you found a beach with palm trees filled with boonanas & monkey’s surrounding it. 
+The monkey seems to be angry monke. 
+
+What will you do?
+
+Approach the monkeys[[Approach the monkeys]]
+Do not approach the monkeys[[Do not approach the monkeys]]
+
+:: Approach the monkeys [monkey] {"position":"993,828.5","size":"100,100"}
+You decided to approach the monkeys. 
+The monke notice you and started to furiously throwing poop at the you. You decided to retreat away. 
+The monke security tightens as you run away. You have failed to retrieve the boonanas and decided to move on to another ingredient.
+
+To the North[[Mermaids pearl]]
+
+
+:: Do not approach the monkeys [banana] {"position":"1158,825.5","size":"100,100"}
+You’ve decided to not approach the monke & they have suddenly retreated back into their cave. You take this chance to pick up a few boonanas that the monke left behind. 
+
+You’ve successfully retrieved a few nice boonanas! Onto the next ingredient! 
+
+To the North[[Mermaids pearl]]
+
+
+
+:: eyes [m3pNL] {"position":"483,295.5","size":"100,100"}
+You slowly squint your eyes to check who it could be.A small white blob sits on top of you. 
+???: “Are you awake now? Cause if you are we need to get going!”
+The white blob jumps off you and you sit up.
+
+Look around you[[surroundings]]
+
+
+:: surroundings [trees]{"position":"475,429.5","size":"100,100"}
+Surrounding you is not the bedroom that you were just in but a forest. 
+You conclude that it's just a dream since you remember going to bed, and if you were to sleepwalk you would still be around society or at home.
+
+Ask the white blob a question?[[question white blob]]
+
+:: follow white blob [hut]{"position":"477,678.5","size":"100,100"}
+You arrive at a small little hut with a tiny flower filled garden in the front.
+M3p: “she’s waiting inside so let’s go in”
+
+You walk to the front of the door. This place is quite overgrown with nature but it’s well maintained.
+
+Knock on the door[[knock]]
+
+:: look for help [beach] {"position":"600,895.5","size":"100,100"}
+You’ve decided to run around the beach & look for help. M3p is following you but she is not giving you assistance. You have no luck in finding anyone to help you.
+You even got lost at the beach yourself and you don’t remember how to get back to the giant whale. M3p saw how long you took to assist the whale and she already long helped the giant whale back into the ocean.
+
+Night hits and you are still around the beach.
+
+Head back to Clover's hut[[Head back to Clover's hut]]
+
+:: splash water [whaleW] {"position":"774,898.5","size":"100,100"}
+You’ve decided to start splashing water on the giant whale with your hands and luckily a bucket somehow rolls on your feet.
+You took this opportunity and used the bucket to your advantage. You kept splashing water on the whale avoiding their blowhole until night hit.
+
+Even though you were unsure if this is the right choice, soon you knew this was not a waste of time.
+
+Keep splashing water on the whale[[splash 2]]
+
+:: splash 2 [beach]{"position":"774,1048.5","size":"100,100"}
+As it got darker, the giant whale somehow got their energy back and they used their fins and flipped themselves back into the ocean. The giant whale swam away deep into the ocean
+You felt very happy that the giant whale managed to survive and you dropped onto the sand on your back. 
+You hear a strong deep sound coming back from the ocean.
+
+Sit up and look towards the ocean[[Sit up and look towards the ocean]]
+
+:: Sit up and look towards the ocean [mermaid]{"position":"774,1198.5","size":"100,100"}
+You sat up and stared out to the ocean.
+
+The giant whale is staring right at you but they aren’t alone. A mermaid is approaching you and you walk towards her near the water.
+
+As both of you get closer, the mermaid reveal her hands holding a pouch. Will you take it?
+
+Take the pouch [[Take the pouch]]
+Don't take the pouch [[Don't take the pouch]]
+
+:: Take the pouch [pearl]{"position":"653,1348.5","size":"100,100"}
+You gladly take the pouch from the mermaid's hands. The mermaid mumble some words you don’t understand. But she bowed and swam away. 
+
+Before the giant whale dive back into the ocean, they make a very high yet deep sound and spray water out of their blowhole. It’s like the giant whale is saying thank you to you.
+
+You've obtained the Mermaids pearl! 
+
+Head back to Clover's hut[[Head back to Clover's hut]]
+
+:: Don't take the pouch [beach] {"position":"893,1348.5","size":"100,100"}
+You decided to not take the pouch from The mermaid...
+The mermaid looks sadden by your decision and swam away. 
+
+Before the giant whale dive back into the ocean, they make a low and deep noise and the sound of the noise makes you feel a little bit sad. Maybe you should've taken their gratitude?
+
+Head back to Clover's hut[[Head back to Clover's hut]]
+
+:: Head back to Clover's hut [waterfallClear] {"position":"773,1327.5","size":"100,100"}
+As you try to walk back toward Clover’s hut, you found a very beautiful waterfall. What do you want to do?
+
+Sit down and take a break[[Sit down and take a break]]
+Keep walking around[[Keep walking around]]
+
+:: Sit down and take a break [waterfallMilk]{"position":"698,1477.5","size":"100,100"}
+You’ve decided to sit down and take a break.
+
+As you enjoy looking around the scenery, you hear rustling behind you. You turned around and there is a shining Unicorn behind you. You were surprised but you didn’t freak out.The unicorn passed by you and started drinking from the waterfall.Suddenly, the water from the waterfall turned milky white.
+You were astounded and wondered how to gather the milk. You realize you don’t have a jar. 
+Then suddenly you notice on top of the waterfall, there is a jar flowing down the stream.
+How lucky you thought. You use this to your advantage and use the jar to gather the milk.
+
+You've obtained Unicorn's Milk!
+
+Head back to Clover's hut[[Clover's hut]]
+
+:: Keep walking around [cave] {"position":"848,1477.5","size":"100,100"}
+You decided to walk around and you ended up behind the waterfall. 
+
+Behind the waterfall, you found a secret hidden door.You pondered what’s behind the door
+As you open the door, you can see that it is a lab room. And on the table are the secret sand you needed. 
+
+On the table, there is a note.
+
+Read the note[[Read the note]]
+
+:: Read the note [lab] {"position":"848,1627.5","size":"100,100"}
+The notes say: “To take these magnificent sand, guess my math riddle. If thou, does not solve the riddle, you shall not take my sand. If you do, karma will bonk you.”  
+
+The math riddle is: 0223 = x + 0100
+What is the correct answer?
+
+00213[[wrong answer]]
+0113[[wrong answer]]
+0123[[correct answer]]
+123[[wrong answer]]
+
+
+
+:: wrong answer {"position":"773,1777.5","size":"100,100"}
+Incorrect! You've chosen the wrong answer! 
+
+Aw dang, seems like you guessed incorrectly. What will you do?
+
+Leave the secret room without taking the jar[[Leave the secret room without taking the jar]]
+Take the Jar anyways[[Take the Jar anyways]]
+
+:: correct answer {"position":"923,1777.5","size":"100,100"}
+Congralutions! You've proven yourself to be worthy of taking the jar! You're quite proud of yourself as you happily and condidently take the jar of sand. 
+
+You've obtained the Jar of Sand!
+
+Exit the room[[Exit the room]]
+
+:: Leave the secret room without taking the jar {"position":"698,1927.5","size":"100,100"}
+The jar is right there and you could've taken it but you decided to take the warning and not take it. So you decided to leave the room. 
+
+Exit the room[[Exit the room]]
+
+:: Take the Jar anyways {"position":"848,1927.5","size":"100,100"}
+The Jar of Sand is literally right in front of you. You decided to take the jar anyways. M3p saw what happened and decided to place a curse on the specific jar of sand you took. 
+
+Before you leave the room, you feel the Jar of Sand getting hot and you look at the jar turning into steam and the jar exploded into thin air. You luckily didn't get hurt but you've achived nothing. 
+
+Exit the room[[Exit the room]] 
+
+
+:: Exit the room [waterfallMilk] {"position":"999,1929.5","size":"100,100"}
+As you leave the room, you see something shining behind the waterfall. 
+
+You slowly exit the waterfall and calmly so you don’t alert what’s outside. When you finally exit the waterfall, you see a stunning white unicorn. 
+You decided to stay where you are as the unicorn drink the water
+Then suddenly, the water turned milky white and you were astounded by this. The unicorn left the vicinity and you took this opportunity and gathered the milk. 
+
+You've obtained Unicorn's Milk!
+
+Head back to Clover's hut[[Clover's hut]]
+
+
+:: Clover's hut {"position":"999,2079.5","size":"100,100"}
+You’ve done all you can now and M3p finally decided to show herself.
+
+M3p says: “mellow im back, it’s been a long while now so it’s time to go back. We have to bake the cake before you wake up from the dream.”
+You are very tired from today’s adventure and you followed M3p back to Clover’s hut.
+
+It's time to bake![[It's time to bake!]]
+
+:: It's time to bake! [kitchen]{"position":"999,2229.5","size":"100,100"}
+You finally arrived back to Clover’s hut and even though you were very tired.
+Your craving for cake was too powerful so you went straight into baking with the ingredients you have. 
+
+Start baking![[Start baking!]] 
+
+:: Start baking! [END goodEnding1] {"position":"999,2379.5","size":"100,100"}
+You’re a pro at mixing the batter and baking it in the oven!
+Clover and M3p can smell the delicious cake from the kitchen in the living room. The cake was successful and as you finished decorating the cake you brought it outside to share with the girls. Everyone’s craving for cake has been fulfilled. 
+
+Creator note: Good work in choosing the correct choices! Play again if you haven’t unlocked the other endings! There isn’t only bad & good endings after all~
+
+Play again?[[START]]
+
+:: Secret ending {"position":"1479,147.5","size":"100,100"}
+You finally arrived back at Clover's hut and even though you are very tired.
+Your craving for the cake was too powerful so you went straight into baking with the ingredients you have.But before you head into the kitchen to bake a cake. Clover has stopped you from entering the kitchen.
+
+Clover says: “Hey, actually, we want to show you something.”
+Clover & M3p bring you through the hut and into the basement.  
+
+Enter the basement? [[Enter the basement]]
+
+:: Enter the basement [END] {"position":"1368,299.5","size":"100,100"}
+In the basement, you were surprised with what you see. The basement was nicely decorated with balloons, tables filled with delicious food, and most of all I saw all my friends gathered around. And then Clover & M3p wheeled out a huge birthday cake. 
+Here, all your friends gathered around you, raised gifts in their hands and said “Happy Birthday!” 
+
+Clover: "Surprised! Didn't expect it to be a Happy Birthday celebration ending ey? Well, no matter if it's your birthday or not - hope you enjoyed playing our game!"
+M3p: "Good work, here have some cake~"
+
+Play again?[[START]]
+
+:: Bad ending [END badEnding1] {"position":"1194,72.5","size":"100,100"}
+You tried to use the ingredients you got today but sadly, they weren’t enough to make a cake. You become depressed as you realize you can’t make a cake. You have no choice but to give up and you sadly exit out of the kitchen without anything. 
+
+Would you like to try again? 
+
+Play again?[[START]]
