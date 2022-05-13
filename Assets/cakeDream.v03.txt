@@ -357,7 +357,7 @@ Creator note: Good work in choosing the correct choices! Play again if you haven
 
 Play again?[[START]]
 
-:: Secret ending {"position":"1479,147.5","size":"100,100"}
+:: Secret ending [hutIN]{"position":"1479,147.5","size":"100,100"}
 You finally arrived back at Clover's hut and even though you are very tired.
 Your craving for the cake was too powerful so you went straight into baking with the ingredients you have.But before you head into the kitchen to bake a cake. Clover has stopped you from entering the kitchen.
 
@@ -366,7 +366,7 @@ Clover & M3p bring you through the hut and into the basement.
 
 Enter the basement? [[Enter the basement]]
 
-:: Enter the basement [END] {"position":"1368,299.5","size":"100,100"}
+:: Enter the basement [END umm] {"position":"1368,299.5","size":"100,100"}
 In the basement, you were surprised with what you see. The basement was nicely decorated with balloons, tables filled with delicious food, and most of all I saw all my friends gathered around. And then Clover & M3p wheeled out a huge birthday cake. 
 Here, all your friends gathered around you, raised gifts in their hands and said “Happy Birthday!” 
 

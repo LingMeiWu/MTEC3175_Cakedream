@@ -6,6 +6,7 @@ using static DialogueObject;
 using UnityEngine.Events;
 using System;
 using System.Runtime.InteropServices;
+using UnityEngine.SceneManagement;
 
 public class DialogueViewer : MonoBehaviour
 {
@@ -60,6 +61,7 @@ public class DialogueViewer : MonoBehaviour
     }
     private void OnNodeEntered(Node newNode)
     {
+        if (newNode == null) return;
         changeBackground(newNode);
         KillAllChildren(parentOfResponses);
         StartCoroutine(DisplayText(newNode.text,newNode));
@@ -68,6 +70,7 @@ public class DialogueViewer : MonoBehaviour
     
     public void changeBackground (Node node)
     {
+        if (node == null) return;  
         List<string> tags = node.tags;
         foreach (string tag in tags ) 
         {

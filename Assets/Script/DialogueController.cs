@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static DialogueObject;
+using UnityEngine.SceneManagement;
 
 public class DialogueController : MonoBehaviour
 {
@@ -40,11 +41,10 @@ public class DialogueController : MonoBehaviour
     {
         string nextNodeID = curNode.responses[responseIndex].destinationNode;
         Node nextNode = null;
-
         if (nextNodeID == "Start baking!" && (!jarM || !pearl || !sand || !banana))
         {
             nextNode = curDialogue.GetNode("Bad ending");
-            
+
         }
         else if (nextNodeID == "Take the pouch")
         {
@@ -68,14 +68,11 @@ public class DialogueController : MonoBehaviour
         }
         else if (nextNodeID == "START")
         {
-            jarM = false;
-            pearl = false;
-            sand = false;
-            banana = false;
-            nextNode = curDialogue.GetNode(nextNodeID);
+            SceneManager.LoadScene("StartMenu");
         }
-        
-        else  
+
+
+        else
         {
             nextNode = curDialogue.GetNode(nextNodeID);
         }
