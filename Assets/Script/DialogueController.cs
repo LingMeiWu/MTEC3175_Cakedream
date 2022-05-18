@@ -66,7 +66,7 @@ public class DialogueController : MonoBehaviour
             banana = true;
             nextNode = curDialogue.GetNode(nextNodeID);
         }
-        else if (nextNodeID == "START")
+        else if (nextNodeID == "have you played the game yet?")
         {
             SceneManager.LoadScene("StartMenu");
         }

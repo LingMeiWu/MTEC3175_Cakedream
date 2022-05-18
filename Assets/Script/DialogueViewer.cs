@@ -139,105 +139,89 @@ public class DialogueViewer : MonoBehaviour
             {
                 backgroundObject.sprite = backgrounds[15];
             }
-            else if (tag == "cumber")
+            else if (tag == "black")
             {
                 backgroundObject.sprite = backgrounds[16];
             }
-            else if (tag == "kit")
+            else if (tag == "badEnding1")
             {
                 backgroundObject.sprite = backgrounds[17];
             }
-            else if (tag == "pink")
+            else if (tag == "goodEnding1")
             {
                 backgroundObject.sprite = backgrounds[18];
             }
-            else if (tag == "egg")
+            else if (tag == "cloverHutInBG")
             {
                 backgroundObject.sprite = backgrounds[19];
             }
-            else if (tag == "jar")
+            else if (tag == "cloverM3pHutBG")
             {
                 backgroundObject.sprite = backgrounds[20];
             }
-            else if (tag == "jarM")
+            else if (tag == "cloverM3pKitchenBG")
             {
                 backgroundObject.sprite = backgrounds[21];
             }
-            else if (tag == "list")
+            else if (tag == "cumberHutInBG")
             {
                 backgroundObject.sprite = backgrounds[22];
             }
-            else if (tag == "pearl")
+            else if (tag == "dryWhaleBeachBG")
             {
                 backgroundObject.sprite = backgrounds[23];
             }
-            else if (tag == "note")
+            else if (tag == "eggHutInBG")
             {
                 backgroundObject.sprite = backgrounds[24];
             }
-            else if (tag == "sand")
+            else if (tag == "happyWhaleMermaidBG")
             {
                 backgroundObject.sprite = backgrounds[25];
             }
-            else if (tag == "mermaid")
+            else if (tag == "jarMUnicornMilkwaterfallBG")
             {
                 backgroundObject.sprite = backgrounds[26];
             }
-            else if (tag == "unicorn")
+            else if (tag == "kitHutInBG")
             {
                 backgroundObject.sprite = backgrounds[27];
             }
-            else if (tag == "whaleW")
+            else if (tag == "m3pBlackBG")
             {
                 backgroundObject.sprite = backgrounds[28];
             }
-            else if (tag == "whaleC")
+            else if (tag == "m3pCloverHutInBG")
             {
                 backgroundObject.sprite = backgrounds[29];
             }
-            else if (tag == "whaleHa")
+            else if (tag == "m3pMilkwaterfallBG")
             {
                 backgroundObject.sprite = backgrounds[30];
             }
-            else if (tag == "cloverT")
+            else if (tag == "m3pTreesBG")
             {
                 backgroundObject.sprite = backgrounds[31];
             }
-            else if (tag == "m3pNL")
+            else if (tag == "noteLabBG")
             {
                 backgroundObject.sprite = backgrounds[32];
             }
-            else if (tag == "m3pTL")
+            else if (tag == "pearlBeachBG")
             {
                 backgroundObject.sprite = backgrounds[33];
             }
-            else if (tag == "m3pT")
+            else if (tag == "pockyHutInBG")
             {
                 backgroundObject.sprite = backgrounds[34];
             }
-            else if (tag == "clovC")
+            else if (tag == "sandLabBG")
             {
                 backgroundObject.sprite = backgrounds[35];
             }
-            else if (tag == "clovE")
+            else if (tag == "wetWhaleBeachBG")
             {
                 backgroundObject.sprite = backgrounds[36];
-            }
-            else if (tag == "CloverN")
-            {
-                backgroundObject.sprite = backgrounds[37];
-            }
-            else if (tag == "black")
-            {
-                backgroundObject.sprite = backgrounds[38];
-            }
-            else if (tag == "badEnding1")
-            {
-                backgroundObject.sprite = backgrounds[39];
-            }
-            else if (tag == "goodEnding1")
-            {
-                backgroundObject.sprite = backgrounds[40];
             }
         }
     }
